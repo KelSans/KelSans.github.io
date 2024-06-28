@@ -15,52 +15,44 @@
             font-family: Arial, sans-serif;
         }
         .container {
-            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+        }
+        .text-section {
+            flex: 0 1 30%;
+            padding-right: 20px;
+            text-align: left;
+        }
+        .game-container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         iframe {
-            width: 100vw; /* Full width of the viewport */
-            height: 80vh; /* 80% of the viewport height */
+            max-width: 100%;
+            max-height: 100%;
             border: none; /* Removes iframe border */
         }
         .controls {
             margin-top: 20px;
-            text-align: left; /* Align controls text to the left */
-        }
-        .controls h2 {
-            text-align: center; /* Center the "Controls" heading */
-        }
-        .controls ul {
-            list-style-type: none; /* Remove default list styles */
-            padding: 0;
-            margin: 0;
-        }
-        .controls li {
-            margin-bottom: 5px;
-        }
-        .controls .controls-text {
-            display: flex;
-            justify-content: space-between;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Rat Attack!</h1>
-        <iframe src="game/index.html" frameborder="0"></iframe>
-        <div class="controls">
+        <div class="text-section">
             <h2>Controls</h2>
-            <div class="controls-text">
-                <div class="text-section">
-                    <p>Text 1 = left click</p>
-                    <p>Text 2 = right click</p>
-                </div>
-                <ul>
-                    <li>Use the arrow keys to move</li>
-                    <li>Use the spacebar to shoot</li>
-                </ul>
-            </div>
+            <p>Text 1 = left click</p>
+            <p>Text 2 = right click</p>
+            <p>Use the arrow keys to move</p>
+            <p>Use the spacebar to shoot</p>
+        </div>
+        <div class="game-container">
+            <iframe src="game/index.html" frameborder="0"></iframe>
         </div>
     </div>
 </body>
 </html>
-
