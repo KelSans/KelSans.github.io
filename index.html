@@ -1,5 +1,3 @@
-
-You
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,16 +7,62 @@ You
     <style>
         body {
             margin: 0;
-            overflow: hidden; /* Ensures the game stays within the viewport */
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 15px; /* Default font size for body text */
+            background-color: #8b5fbc; /* Purple background */
+            color: #ffffff; /* White text color */
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            background-color: #ffffff; /* White background for the game container */
+            padding: 20px;
+            border-radius: 10px; /* Rounded corners for the game container */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle depth effect */
+        }
+        h1, h2 {
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            font-size: 25px; /* Font size for headings */
+            margin-top: 0; /* Remove default margin for headings */
+        }
+        .game-description {
+            margin-bottom: 20px;
+        }
+        .game-container {
+            width: 800px;
+            height: 800px;
+            margin: 0 auto;
+            overflow: hidden;
         }
         iframe {
-            width: 100vw; / Full width of the viewport /
-            height: 100vh; / Full height of the viewport /
-            border: none; / Removes iframe border */
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .controls {
+            margin-top: 20px;
+            text-align: left;
         }
     </style>
 </head>
 <body>
-    <iframe src="game/index.html" width= "1200" height="800" frameborder="0"></iframe>
+    <div class="container">
+        <h1>Embedded GDevelop Game - Title</h1>
+        <div class="game-description">
+            <p>This is a description of the game. Add your description text here.</p>
+        </div>
+        <div class="game-container">
+            <iframe src="game/index.html" frameborder="0"></iframe>
+        </div>
+        <div class="controls">
+            <h2>Controls</h2>
+            <p><strong>Left Click:</strong> Shoot</p>
+            <p><strong>Right Click:</strong> Use items from inventory</p>
+            <!-- Add more control instructions as needed -->
+        </div>
+    </div>
 </body>
-</html> 
+</html>
