@@ -24,19 +24,43 @@
         }
         .controls {
             margin-top: 20px;
+            text-align: left; /* Align controls text to the left */
+        }
+        .controls h2 {
+            text-align: center; /* Center the "Controls" heading */
+        }
+        .controls ul {
+            list-style-type: none; /* Remove default list styles */
+            padding: 0;
+            margin: 0;
+        }
+        .controls li {
+            margin-bottom: 5px;
+        }
+        .controls .controls-text {
+            display: flex;
+            justify-content: space-between;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1> Game Heading Here </h1>
+        <h1>Rat Attack!</h1>
         <iframe src="game/index.html" frameborder="0"></iframe>
         <div class="controls">
             <h2>Controls</h2>
-            <p> Text 1 = left click
-                text 2 = right click                
-                Use the arrow keys to move and the spacebar to shoot.</p>
+            <div class="controls-text">
+                <div class="text-section">
+                    <p>Text 1 = left click</p>
+                    <p>Text 2 = right click</p>
+                </div>
+                <ul>
+                    <li>Use the arrow keys to move</li>
+                    <li>Use the spacebar to shoot</li>
+                </ul>
+            </div>
         </div>
     </div>
 </body>
 </html>
+
