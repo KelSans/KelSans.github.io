@@ -1,0 +1,32 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "Bob: \"Thanks for taking my call!\nI got a serious pest problem that needs taking care of.\"\n[[\"I can handle a few pests.\" |yes]] \n[[ \"I don't mess with Rats..\" |no]]",
+		"position": {
+			"x": 654,
+			"y": 212
+		},
+		"colorID": 0
+	},
+	{
+		"title": "yes",
+		"tags": "",
+		"body": "Bob: \"Great! I'll give you bonus pay for collecting any eggs left behind! \nSee you inside the Old Barn.\"",
+		"position": {
+			"x": 354,
+			"y": 164
+		},
+		"colorID": 0
+	},
+	{
+		"title": "no",
+		"tags": "",
+		"body": "Bob: \"Shame, I was going to offer [b]bonus pay[/b] for making them disappear.\nNevermind.\"",
+		"position": {
+			"x": 914,
+			"y": 183
+		},
+		"colorID": 0
+	}
+]

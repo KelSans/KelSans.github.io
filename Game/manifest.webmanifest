@@ -1,0 +1,12 @@
+{
+  "name": "Rat Attack V1",
+  "short_name": "Rat Attack V1",
+  "id": "com.example.gamename",
+  "description": "",
+  "orientation": "any",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}
