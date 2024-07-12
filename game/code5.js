@@ -205,7 +205,7 @@ gdjs.Boss_32BattleCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34497156);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25812804);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.Boss_32BattleCode.GDPlayerObjects1);
@@ -985,7 +985,7 @@ gdjs.Boss_32BattleCode.forEachTemporary3 = gdjs.Boss_32BattleCode.GDPlayerObject
 gdjs.Boss_32BattleCode.GDPlayerObjects3.push(gdjs.Boss_32BattleCode.forEachTemporary3);
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34524092);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25839740);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Boss_32BattleCode.mapOfGDgdjs_9546Boss_959532BattleCode_9546GDPlayerHealthBarObjects3Objects, (( gdjs.Boss_32BattleCode.GDPlayerObjects3.length === 0 ) ? 0 :gdjs.Boss_32BattleCode.GDPlayerObjects3[0].getPointX("PHealthBar")), (( gdjs.Boss_32BattleCode.GDPlayerObjects3.length === 0 ) ? 0 :gdjs.Boss_32BattleCode.GDPlayerObjects3[0].getPointY("PHealthBar")), "");
@@ -1047,7 +1047,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Boss_32BattleCode.mapOfGDgdjs_9546Boss_959532BattleCode_9546GDSnakeObjects2Objects, gdjs.Boss_32BattleCode.mapOfGDgdjs_9546Boss_959532BattleCode_9546GDPlayerObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34527228);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25842876);
 }
 }
 if (isConditionTrue_0) {
@@ -1336,7 +1336,7 @@ gdjs.Boss_32BattleCode.forEachTemporary3 = gdjs.Boss_32BattleCode.GDSnakeObjects
 gdjs.Boss_32BattleCode.GDSnakeObjects3.push(gdjs.Boss_32BattleCode.forEachTemporary3);
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34538204);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25853852);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Boss_32BattleCode.mapOfGDgdjs_9546Boss_959532BattleCode_9546GDSnake_95959595HealthBarObjects3Objects, (( gdjs.Boss_32BattleCode.GDSnakeObjects3.length === 0 ) ? 0 :gdjs.Boss_32BattleCode.GDSnakeObjects3[0].getPointX("SHealthBar Point")), (( gdjs.Boss_32BattleCode.GDSnakeObjects3.length === 0 ) ? 0 :gdjs.Boss_32BattleCode.GDSnakeObjects3[0].getPointY("SHealthBar Point")), "");
@@ -1387,7 +1387,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Boss_32BattleCode.mapOfGDgdjs_9546Boss_959532BattleCode_9546GDBulletObjects2Objects, gdjs.Boss_32BattleCode.mapOfGDgdjs_9546Boss_959532BattleCode_9546GDSnakeObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34540644);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25856292);
 }
 }
 if (isConditionTrue_0) {
@@ -1480,7 +1480,7 @@ gdjs.Boss_32BattleCode.forEachTemporary2 = gdjs.Boss_32BattleCode.GDBoss_9595Rat
 gdjs.Boss_32BattleCode.GDBoss_9595RatObjects2.push(gdjs.Boss_32BattleCode.forEachTemporary2);
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34544420);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25860068);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Boss_32BattleCode.mapOfGDgdjs_9546Boss_959532BattleCode_9546GDBossHPBarObjects2Objects, (( gdjs.Boss_32BattleCode.GDBoss_9595RatObjects2.length === 0 ) ? 0 :gdjs.Boss_32BattleCode.GDBoss_9595RatObjects2[0].getPointX("Boss Health Point")), (( gdjs.Boss_32BattleCode.GDBoss_9595RatObjects2.length === 0 ) ? 0 :gdjs.Boss_32BattleCode.GDBoss_9595RatObjects2[0].getPointY("Boss Health Point")), "");
@@ -1516,7 +1516,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.pickRandomObject((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Boss_32BattleCode.mapOfGDgdjs_9546Boss_959532BattleCode_9546GDBoss_95959595SpawnObjects1Objects);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34550684);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25866332);
 }
 }
 if (isConditionTrue_0) {
@@ -1638,7 +1638,7 @@ for (var i = 0, k = 0, l = gdjs.Boss_32BattleCode.GDPlayerObjects1.length;i<l;++
 gdjs.Boss_32BattleCode.GDPlayerObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34549564);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25865212);
 }
 }
 }
@@ -1677,7 +1677,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.pickNearestObject(gdjs.Boss_32BattleCode.mapOfGDgdjs_9546Boss_959532BattleCode_9546GDBoss_95959595SpawnObjects3Objects, (( gdjs.Boss_32BattleCode.GDBoss_9595RatObjects3.length === 0 ) ? 0 :gdjs.Boss_32BattleCode.GDBoss_9595RatObjects3[0].getPointX("")), (( gdjs.Boss_32BattleCode.GDBoss_9595RatObjects3.length === 0 ) ? 0 :gdjs.Boss_32BattleCode.GDBoss_9595RatObjects3[0].getPointY("")), false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34555036);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25870684);
 }
 }
 if (isConditionTrue_0) {
@@ -1750,7 +1750,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Boss_32BattleCode.mapOfGDgdjs_9546Boss_959532BattleCode_9546GDBulletObjects2Objects, gdjs.Boss_32BattleCode.mapOfGDgdjs_9546Boss_959532BattleCode_9546GDBoss_95959595RatObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34552844);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25868492);
 }
 }
 if (isConditionTrue_0) {
@@ -1906,12 +1906,13 @@ gdjs.copyArray(asyncObjectsList.getObjects("Boss_Rat"), gdjs.Boss_32BattleCode.G
 }
 
 
-};gdjs.Boss_32BattleCode.asyncCallback34561820 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Boss_32BattleCode.asyncCallback25877468 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Boss_32BattleCode.localVariables);
 {gdjs.evtTools.sound.playSound(runtimeScene, "rat_sound.wav", false, 100, 2);
 }
 { //Subevents
 gdjs.Boss_32BattleCode.eventsList34(runtimeScene, asyncObjectsList);} //End of subevents
+gdjs.Boss_32BattleCode.localVariables.length = 0;
 }
 gdjs.Boss_32BattleCode.eventsList35 = function(runtimeScene) {
 
@@ -1924,7 +1925,7 @@ const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Boss_32BattleCode.localVariables);
 for (const obj of gdjs.Boss_32BattleCode.GDBossHPBarObjects1) asyncObjectsList.addObject("BossHPBar", obj);
 for (const obj of gdjs.Boss_32BattleCode.GDBoss_9595RatObjects1) asyncObjectsList.addObject("Boss_Rat", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Boss_32BattleCode.asyncCallback34561820(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Boss_32BattleCode.asyncCallback25877468(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -2184,7 +2185,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Boss_32BattleCode.mapOfGDgdjs_9546Boss_959532BattleCode_9546GDBoss_95959595RatObjects1Objects, gdjs.Boss_32BattleCode.mapOfGDgdjs_9546Boss_959532BattleCode_9546GDBoss_95959595SpawnObjects1Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34560756);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25876404);
 }
 }
 if (isConditionTrue_0) {

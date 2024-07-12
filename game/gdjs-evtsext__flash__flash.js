@@ -47,6 +47,7 @@ gdjs.evtsExt__Flash__Flash.Flash = class Flash extends gdjs.RuntimeBehavior {
     };
   }
   updateFromNetworkSyncData(networkSyncData) {
+    super.updateFromNetworkSyncData(networkSyncData);
     
     if (networkSyncData.props.HalfPeriodTime !== undefined)
       this._behaviorData.HalfPeriodTime = networkSyncData.props.HalfPeriodTime;

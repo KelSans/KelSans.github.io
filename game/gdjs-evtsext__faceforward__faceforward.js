@@ -55,6 +55,7 @@ gdjs.evtsExt__FaceForward__FaceForward.FaceForward = class FaceForward extends g
     };
   }
   updateFromNetworkSyncData(networkSyncData) {
+    super.updateFromNetworkSyncData(networkSyncData);
     
     if (networkSyncData.props.RotationSpeed !== undefined)
       this._behaviorData.RotationSpeed = networkSyncData.props.RotationSpeed;

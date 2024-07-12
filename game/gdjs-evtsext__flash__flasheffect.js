@@ -51,6 +51,7 @@ gdjs.evtsExt__Flash__FlashEffect.FlashEffect = class FlashEffect extends gdjs.Ru
     };
   }
   updateFromNetworkSyncData(networkSyncData) {
+    super.updateFromNetworkSyncData(networkSyncData);
     
     if (networkSyncData.props.HalfPeriodTime !== undefined)
       this._behaviorData.HalfPeriodTime = networkSyncData.props.HalfPeriodTime;

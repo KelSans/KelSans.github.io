@@ -47,6 +47,7 @@ gdjs.evtsExt__MagneticEffect__MagneticEffect.MagneticEffect = class MagneticEffe
     };
   }
   updateFromNetworkSyncData(networkSyncData) {
+    super.updateFromNetworkSyncData(networkSyncData);
     
     if (networkSyncData.props.Speed !== undefined)
       this._behaviorData.Speed = networkSyncData.props.Speed;

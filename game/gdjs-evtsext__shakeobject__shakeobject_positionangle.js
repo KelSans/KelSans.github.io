@@ -35,6 +35,7 @@ gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngle.ShakeObject_PositionAngle =
     };
   }
   updateFromNetworkSyncData(networkSyncData) {
+    super.updateFromNetworkSyncData(networkSyncData);
     
   }
 
@@ -1649,7 +1650,7 @@ gdjs.copyArray(gdjs.evtsExt__ShakeObject__ShakeObject_PositionAngle.ShakeObject_
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(32858708);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(24323204);
 }
 }
 if (isConditionTrue_0) {

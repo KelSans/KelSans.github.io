@@ -47,6 +47,7 @@ gdjs.evtsExt__DrawPathfinding__DrawPathfinding.DrawPathfinding = class DrawPathf
     };
   }
   updateFromNetworkSyncData(networkSyncData) {
+    super.updateFromNetworkSyncData(networkSyncData);
     
     if (networkSyncData.props.LoopIndex !== undefined)
       this._behaviorData.LoopIndex = networkSyncData.props.LoopIndex;

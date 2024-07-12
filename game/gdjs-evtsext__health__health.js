@@ -131,6 +131,7 @@ gdjs.evtsExt__Health__Health.Health = class Health extends gdjs.RuntimeBehavior 
     };
   }
   updateFromNetworkSyncData(networkSyncData) {
+    super.updateFromNetworkSyncData(networkSyncData);
     
     if (networkSyncData.props.Health !== undefined)
       this._behaviorData.Health = networkSyncData.props.Health;
@@ -752,7 +753,7 @@ for (var i = 0, k = 0, l = gdjs.evtsExt__Health__Health.Health.prototype.doStepP
 gdjs.evtsExt__Health__Health.Health.prototype.doStepPreEventsContext.GDObjectObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(32122876);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(23587372);
 }
 }
 if (isConditionTrue_0) {

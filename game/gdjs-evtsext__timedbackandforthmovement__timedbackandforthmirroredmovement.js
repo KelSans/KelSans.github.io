@@ -63,6 +63,7 @@ gdjs.evtsExt__TimedBackAndForthMovement__TimedBackAndForthMirroredMovement.Timed
     };
   }
   updateFromNetworkSyncData(networkSyncData) {
+    super.updateFromNetworkSyncData(networkSyncData);
     
     if (networkSyncData.props.Vertical !== undefined)
       this._behaviorData.Vertical = networkSyncData.props.Vertical;
